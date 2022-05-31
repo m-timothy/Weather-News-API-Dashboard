@@ -15,7 +15,7 @@ const WeatherDisplay = () => {
                 lat: "30.4171",
                 lon: "-97.929",
                 units: "imperial",
-                appid: "c2da4e1f72d4513d064228bdbf19c339"
+                appid: process.env.REACT_APP_OPENWEATHERMAP_API_KEY
             }
         }
 
